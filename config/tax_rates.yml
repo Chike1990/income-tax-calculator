@@ -1,0 +1,8 @@
+# NZ income tax rates for individuals (IRD).
+- effective_from: "2025-04-01"
+  brackets:
+    - { up_to: 15600,  rate: "0.105" }
+    - { up_to: 53500,  rate: "0.175" }
+    - { up_to: 78100,  rate: "0.30" }
+    - { up_to: 180000, rate: "0.33" }
+    - { up_to: null,   rate: "0.39" }
